@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fun
+title: Random
 nav: true
 nav_order: 6
 dropdown: true
