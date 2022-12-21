@@ -1,8 +1,9 @@
 ---
-layout: cv
+layout: default
 permalink: /cv/
 title: CV
-nav: false
+nav: true
 nav_order: 4
-cv_pdf: akshay_raman_resume.pdf
+redirect_to: /assets/pdf/akshay_raman_resume.pdf
 ---
+
