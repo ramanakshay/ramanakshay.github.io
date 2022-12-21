@@ -18,6 +18,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi! I'm an final-year student at [Vellore Institute of Technology](https://vit.ac.in) studying Computer Science. I am interested in the theoretical foundations of machine learning. Specifically, I want to work on ways to improve the generalization power and robustness of deep neural networks. 
+Hi! I'm a final-year student at [Vellore Institute of Technology](https://vit.ac.in) studying Computer Science. I am interested in the theoretical foundations of machine learning. Specifically, I want to work on ways to improve the generalization power and robustness of deep neural networks. 
 
 I am into books, music, and running.
