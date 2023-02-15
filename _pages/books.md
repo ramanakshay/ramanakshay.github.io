@@ -2,7 +2,7 @@
 layout: page
 title: Books
 permalink: /books/
-description: My library.
+description: Books I've read.
 nav: false
 nav_order: 2
 display_categories: [Fiction, Non-fiction]
