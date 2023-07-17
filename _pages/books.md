@@ -3,8 +3,8 @@ layout: page
 title: Books
 permalink: /books/
 description: Books I've read.
-nav: false
-nav_order: 2
+nav: true
+nav_order: 5
 display_categories: [Fiction, Non-fiction]
 ---
 
