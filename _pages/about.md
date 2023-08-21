@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Undergraduate Student | VIT Vellore
+subtitle: Graduate Student | New York University, Courant Institute
 
 profile:
   align: right
@@ -18,6 +18,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi! I'm a final-year student at [Vellore Institute of Technology](https://vit.ac.in) studying Computer Science. I am interested in the foundations of machine learning. Specifically, I want to work on ways to improve the generalization power and learning capability of neural networks.
-
-I am into books, music, and running.
+Hi! I'm a first-year master's student studying computer science at NYU Courant.
+I am interested in the foundations of machine learning and intelligence.
+Specifically, I am working on ways to improve the generalization power and learning capability of neural networks.
