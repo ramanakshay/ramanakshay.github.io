@@ -1,5 +1,5 @@
 <div class="news">
-  <h2>News</h2>
+       <a class='navbar-brand title font-weight-lighter' href="news"> <h2>News</h2> </a>
   {% if site.news != blank -%}
   {%- assign news_size = site.news | size -%}
   <div class="table-responsive" {% if site.news_scrollable and news_size> 3 %}style="max-height: 10vw"{% endif %}>
