@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Masters Student | New York University, Courant Institute
+subtitle: MSc in Computer Science | New York University, Courant Institute
 
 profile:
   align: right
