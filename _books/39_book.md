@@ -1,3 +1,4 @@
+---
 layout: none
 title: "Slaughterhouse-Five - Kurt Vonnegut"
 img: assets/img/covers/slaughterhouse-five-bookcover.jpg
