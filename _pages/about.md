@@ -6,7 +6,7 @@ subtitle: MSc in Computer Science | New York University, Courant Institute
 
 profile:
   align: right
-  image: beach_profile_pic.jpeg
+  image: beach_profile_pic.jpg
   image_circular: false # crops the image to make it circular
   # address: >
   #   <p>555 your office number</p>
