@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /projects/
-title: Projects
+permalink: /repos/
+title: Repositories
 description: Some of my open-source projects on GitHub.
-nav: true
+nav: false
 nav_order: 4
 ---
 
