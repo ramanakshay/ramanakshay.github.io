@@ -29,9 +29,7 @@ display_categories: [Fiction, Non-fiction]
   <!-- Generate cards for each project -->
   <div class="grid">
     {%- for book in sorted_books -%}
-      <div class="g-col-6 g-col-md-3">
       {% include books.html %}
-      </div>
     {%- endfor %}
   </div>
 {%- endif -%}
