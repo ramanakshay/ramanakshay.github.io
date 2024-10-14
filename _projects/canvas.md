@@ -1,0 +1,7 @@
+---
+layout: none
+title: Canvas
+description: Designed a flexible deep learning project template using pytorch and hydra. The template is based on the agent-environment interface and supports a variety of machine learning tasks.
+img: assets/img/projects/canvas.svg
+github: https://github.com/ramanakshay/canvas
+---
