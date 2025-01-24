@@ -6,10 +6,8 @@
       <div class="card-img col-md-4">
           {% include figure.liquid path=project.img alt="project thumbnail"%}
       </div>
-      <div class="col-md-8">
-      {%- else -%}
-      <div class="col-md-12">
       {%- endif -%}
+      <div class="col-md-8">
         <div class="card-body">
           <h3 class="card-title">{{ project.title }}</h3>
           {%- if project.subtitle -%}
@@ -49,5 +47,4 @@
       </div>
   </div>
 </div>
-
   </div>
