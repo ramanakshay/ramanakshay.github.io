@@ -696,6 +696,7 @@ footer.sticky-bottom {
 
 
 .books {
+
   a {
     text-decoration: none;
 
@@ -707,7 +708,7 @@ footer.sticky-bottom {
   }
 
   .grid {
-    display: flex;
+    display: block grid;
   }
 
   .grid-sizer,
