@@ -18,10 +18,17 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Loading...",
+          description: "Redirecting to PDF file...",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-books",
+          title: "Books",
+          description: "Some books I have read.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/books/";
           },
         },{id: "post-a-post-with-image-galleries",
       
@@ -375,7 +382,217 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-sparkles-launched-my-personal-website",
+    },{id: "books-the-ultimate-hitchhiker-39-s-guide-to-the-galaxy-douglas-adams",
+          title: 'The Ultimate Hitchhiker&amp;#39;s Guide To The Galaxy - Douglas Adams',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2_book/";
+            },},{id: "books-sapiens-a-brief-history-of-humankind-yuval-noah-harari",
+          title: 'Sapiens: A Brief History of Humankind - Yuval Noah Harari',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/3_book/";
+            },},{id: "books-crime-and-punishment-fyodor-dostoevsky",
+          title: 'Crime and Punishment - Fyodor Dostoevsky',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/4_book/";
+            },},{id: "books-12-rules-for-life-jordan-peterson",
+          title: '12 Rules for Life - Jordan Peterson',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/5_book/";
+            },},{id: "books-one-hundred-years-of-solitude-gabriel-garcía-márquez",
+          title: 'One Hundred Years of Solitude - Gabriel García Márquez',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/6_book/";
+            },},{id: "books-dune-frank-herbert",
+          title: 'Dune - Frank Herbert',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/7_book/";
+            },},{id: "books-cosmos-carl-sagan",
+          title: 'Cosmos - Carl Sagan',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/8_book/";
+            },},{id: "books-the-count-of-monte-cristo-alexandre-dumas",
+          title: 'The Count of Monte Cristo - Alexandre Dumas',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/9_book/";
+            },},{id: "books-the-man-who-mistook-his-wife-for-a-hat-oliver-sacks",
+          title: 'The Man Who Mistook His Wife for a Hat - Oliver Sacks',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/10_book/";
+            },},{id: "books-animal-farm-george-orwell",
+          title: 'Animal Farm - George Orwell',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/11_book/";
+            },},{id: "books-siddhartha-hermann-hesse",
+          title: 'Siddhartha - Hermann Hesse',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/12_book/";
+            },},{id: "books-flowers-for-algernon-daniel-keyes",
+          title: 'Flowers for Algernon - Daniel Keyes',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/13_book/";
+            },},{id: "books-harry-potter-and-the-sorcerer-39-s-stone-j-k-rowling",
+          title: 'Harry Potter and the Sorcerer&amp;#39;s Stone - J. K. Rowling',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/14_book/";
+            },},{id: "books-musicophilia-tales-of-music-and-the-brain-oliver-sacks",
+          title: 'Musicophilia: Tales of Music and the Brain - Oliver Sacks',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/15_book/";
+            },},{id: "books-harry-potter-and-the-chamber-of-secrets-j-k-rowling",
+          title: 'Harry Potter and the Chamber of Secrets - J. K. Rowling',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/16_book/";
+            },},{id: "books-1984-george-orwell",
+          title: '1984 - George Orwell',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/1_book/";
+            },},{id: "books-harry-potter-and-the-prisoner-of-askaban-j-k-rowling",
+          title: 'Harry Potter and the Prisoner of Askaban - J. K. Rowling',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/17_book/";
+            },},{id: "books-and-then-there-were-none-agatha-christie",
+          title: 'And Then There Were None - Agatha Christie',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/18_book/";
+            },},{id: "books-harry-potter-and-the-goblet-of-fire-j-k-rowling",
+          title: 'Harry Potter and the Goblet of Fire - J. K. Rowling',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/19_book/";
+            },},{id: "books-the-dragons-of-eden-carl-sagan",
+          title: 'The Dragons of Eden - Carl Sagan',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/20_book/";
+            },},{id: "books-harry-potter-and-the-order-of-the-phoenix-j-k-rowling",
+          title: 'Harry Potter and the Order of the Phoenix - J. K. Rowling',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/21_book/";
+            },},{id: "books-the-book-thief-markus-zusak",
+          title: 'The Book Thief - Markus Zusak',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/22_book/";
+            },},{id: "books-harry-potter-and-the-half-blood-prince-j-k-rowling",
+          title: 'Harry Potter and the Half-Blood Prince - J. K. Rowling',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/23_book/";
+            },},{id: "books-meditations-marcus-aurelius",
+          title: 'Meditations - Marcus Aurelius',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/24_book/";
+            },},{id: "books-harry-potter-and-the-deathly-hallows-j-k-rowling",
+          title: 'Harry Potter and the Deathly Hallows - J. K. Rowling',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/25_book/";
+            },},{id: "books-brief-answers-to-the-big-questions-stephen-hawking",
+          title: 'Brief Answers to the Big Questions - Stephen Hawking',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/26_book/";
+            },},{id: "books-contact-carl-sagan",
+          title: 'Contact - Carl Sagan',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/27_book/";
+            },},{id: "books-cat-39-s-cradle-kurt-vonnegut",
+          title: 'Cat&amp;#39;s Cradle - Kurt Vonnegut',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/28_book/";
+            },},{id: "books-the-selfish-gene-richard-dawkins",
+          title: 'The Selfish Gene - Richard Dawkins',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/29_book/";
+            },},{id: "books-the-song-of-achilles-madeline-miller",
+          title: 'The Song of Achilles - Madeline Miller',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/30_book/";
+            },},{id: "books-atomic-habits-james-clear",
+          title: 'Atomic Habits - James Clear',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/31_book/";
+            },},{id: "books-down-and-out-in-paris-and-london-george-orwell",
+          title: 'Down and Out in Paris and London - George Orwell',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/32_book/";
+            },},{id: "books-11-22-63-stephen-king",
+          title: '11/22/63 - Stephen King',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/33_book/";
+            },},{id: "books-lord-of-the-rings-the-fellowship-of-the-ring-j-r-r-tolkien",
+          title: 'Lord of the Rings: The Fellowship Of The Ring - J.R.R. Tolkien',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/35_book/";
+            },},{id: "books-on-writing-stephen-king",
+          title: 'On Writing - Stephen King',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/36_book/";
+            },},{id: "books-reflections-p-g-raman",
+          title: 'Reflections - P.G. Raman',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/34_book/";
+            },},{id: "books-the-midnight-library-matt-haig",
+          title: 'The Midnight Library - Matt Haig',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/37_book/";
+            },},{id: "books-notes-from-underground-fyodor-dostoevsky",
+          title: 'Notes from Underground - Fyodor Dostoevsky',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/38_book/";
+            },},{id: "books-slaughterhouse-five-kurt-vonnegut",
+          title: 'Slaughterhouse-Five - Kurt Vonnegut',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/39_book/";
+            },},{id: "books-how-to-be-yourself-ellen-hendriksen",
+          title: 'How to Be Yourself - Ellen Hendriksen',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/40_book/";
+            },},{id: "books-the-double-fyodor-dostoevsky",
+          title: 'The Double - Fyodor Dostoevsky',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/41_book/";
+            },},{id: "books-a-thousand-splendid-suns-khaled-hosseini",
+          title: 'A Thousand Splendid Suns - Khaled Hosseini',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/42_book/";
+            },},{id: "news-sparkles-launched-my-personal-website",
           title: ':sparkles: Launched my personal website!',
           description: "",
           section: "News",},{id: "news-graduated-from-vellore-institute-of-technology-with-a-bachelor-s-degree-in-computer-science-and-engineering",
