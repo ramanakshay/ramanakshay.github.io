@@ -696,9 +696,6 @@ footer.sticky-bottom {
 
 
 .books {
-
-  display: grid;
-  
   a {
     text-decoration: none;
 
@@ -707,6 +704,10 @@ footer.sticky-bottom {
         color: var(--global-theme-color);
       }
     }
+  }
+
+  .grid {
+    display: flex;
   }
 
   .grid-sizer,
