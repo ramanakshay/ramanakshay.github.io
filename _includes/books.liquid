@@ -1,0 +1,17 @@
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  {% if book.redirect -%}
+  <a href="{{ book.redirect }}">
+    {%- else -%}
+    <a href="{{ book.url | relative_url }}">
+      {%- endif %}
+      <div class="hoverable">
+        {%- if book.img %}
+        {%- include figure.liquid
+        path=book.img
+        alt="book cover"
+        title=book.title -%}
+        {%- endif %}
+      </div>
+    </a>
+</div>
