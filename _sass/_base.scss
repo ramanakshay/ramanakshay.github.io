@@ -711,7 +711,7 @@ footer.sticky-bottom {
     width: 22%;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 768px) {
     .grid-sizer,
     .grid-item {
       width: 47%;
