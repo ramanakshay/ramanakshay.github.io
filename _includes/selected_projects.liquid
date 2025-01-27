@@ -1,0 +1,13 @@
+<br>
+<div class="projects">
+<!-- Display projects without categories -->
+  {%- assign sorted_projects = site.projects | sort: "date" | reverse -%}
+  <!-- Generate cards for each project -->
+    <div class="row row-cols-1">
+    {%- for project in sorted_projects -%}
+      {% if project.selected %}
+        {% include projects_horizontal.liquid %}
+      {% endif %}
+    {%- endfor %}
+    </div>
+</div>

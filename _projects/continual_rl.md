@@ -7,4 +7,5 @@ img: assets/img/projects/acrobot.gif
 github: https://github.com/ramanakshay/Continual-Policy-Gradient
 report: https://github.com/ramanakshay/Continual-Policy-Gradient/blob/main/report.pdf
 date: 23-10-2024
+selected: true
 ---

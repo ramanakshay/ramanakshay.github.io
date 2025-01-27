@@ -12,10 +12,15 @@ profile:
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
+selected_projects: true
 ---
 
-Hi! I'm a second-year master's student studying computer science at NYU Courant. My research interests broadly span reinforcement learning, efficient DNN computing, and ML in healthcare.
+Hi! I'm Akshay! I am a second-year master's student studying computer science at NYU Courant. My research interests broadly span reinforcement learning, efficient DNN computing, and ML in healthcare.
 
 Currently, I am working on multimodality and data curation methods as a researcher at the Data, Intelligence, Computation in Engineering (DICE) lab @ NYU Tandon, advised by Prof. Chinmay Hegde.
 
 In my spare time, I enjoy music, running, and reading.
+
+You can find my CV <b> <a href="cv">here</a></b>.
+
+Contact: <b> ramanakshay112 AT gmail.com </b>

@@ -6,4 +6,5 @@ img: assets/img/projects/canvas.svg
 github: https://github.com/ramanakshay/canvas
 report: 
 date: 25-10-2024
+selected: true
 ---

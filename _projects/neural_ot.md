@@ -8,4 +8,5 @@ github: https://github.com/ramanakshay/Optimal-Transport
 report: https://drive.google.com/file/d/1f7aRG5wkO4dIutgzdXo2TAqa-3xHj9rE/view?usp=sharing
 slides: https://drive.google.com/file/d/1dQ1Ww8W-6cf5Bt6mxsCkQ9LcD9UOdbKJ/view?usp=sharing
 date: 20-10-2024
+selected: true
 ---
