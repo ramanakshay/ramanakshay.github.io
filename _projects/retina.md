@@ -5,4 +5,5 @@ description: Trained large-scale CNNs to predict diabetic retinopathy (an eye di
 img: assets/img/projects/retina.png
 github: https://github.com/ramanakshay/Diabetic-Retinopathy-Detection
 date: 18-10-2024
+selected: true
 ---
