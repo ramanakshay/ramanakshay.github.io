@@ -596,7 +596,10 @@ ninja.data = [{
           title: ':sparkles: Launched my personal website!',
           description: "",
           section: "News",},{id: "news-graduated-from-vellore-institute-of-technology-with-a-bachelor-s-degree-in-computer-science-and-engineering",
-          title: '🎓 Graduated from Vellore Institute of Technology with a bachelor’s degree in computer...',
+          title: '🎓 Graduated from Vellore Institute of Technology with a Bachelor’s degree in Computer...',
+          description: "",
+          section: "News",},{id: "news-graduated-from-new-york-university-with-a-master-s-degree-in-computer-science-ai-specialization",
+          title: '🎓 Graduated from New York University with a Master’s degree in Computer Science...',
           description: "",
           section: "News",},{id: "projects-diabetic-retinopathy-detection",
           title: 'Diabetic Retinopathy Detection',
@@ -623,11 +626,16 @@ ninja.data = [{
           description: "Trained a CLIP-inspired image geolocation model that predicts the precise location of an image taken anywhere on earth. Designed a novel inference approach based on hierarchical feature clustering which achieves comparable performance while being ~100x more efficient than previous methods.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/geoclip/";
-            },},{id: "projects-canvas-a-pytorch-template-for-deep-learning-projects",
-          title: 'Canvas - A PyTorch Template for Deep Learning Projects',
-          description: "Designed a flexible deep learning project template using pytorch and hydra. The template is based on the agent-environment interface and supports a variety of machine learning tasks.",
+            },},{id: "projects-canvas-a-template-for-deep-learning-projects",
+          title: 'Canvas - A Template for Deep Learning Projects',
+          description: "Designed a flexible deep learning project template using pytorch and hydra. The template is based on the agent-environment interface in RL and supports all kinds of machine learning tasks.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/canvas/";
+            },},{id: "projects-finetuning-video-diffusion-models-for-multi-view-consistency",
+          title: 'Finetuning Video Diffusion Models for Multi-view Consistency',
+          description: "Fine-tuned a video diffusion model to generate multi-view consistent object renderings from single-view inputs. Demonstrated that a curated high-quality 1% subset (10K objects) of the Objaverse dataset achieved performance comparable to full-scale training. (1M+ objects).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/finetune_svd/";
             },},{
         id: 'social-email',
         title: 'email',
