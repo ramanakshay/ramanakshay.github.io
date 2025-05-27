@@ -15,12 +15,12 @@ social: false # includes social icons at the bottom of the page
 selected_projects: true
 ---
 
-Hi! I'm Akshay! I am a second-year master's student studying computer science at NYU Courant. My research interests broadly span reinforcement learning, efficient DNN computing, and ML in healthcare.
+Hi! I am Akshay Raman, a recent graduate in Computer Science from New York University. My research interests broadly span reinforcement learning, multimodal learning, and the scientific applications of AI.
 
-Currently, I am working on multimodality and data curation methods as a researcher at the Data, Intelligence, Computation in Engineering (DICE) lab @ NYU Tandon, advised by Prof. Chinmay Hegde.
+I am currently a researcher at the <a href="https://www.ai4vslab.org/">AI4VS Lab</a> at Columbia University, where I work under the supervision of Prof. Kaveri Thakoor. My current research focuses on multimodal learning approaches that integrate eye-tracking data for improved predictive performance. Previously, I had the opportunity to collaborate with researchers at the <a href="https://chinmayhegde.github.io/lab/">DICE Lab</a> at NYU and the <a href="https://agerolin.github.io/">AI4Science Group</a> at the University of Ottawa.
 
 In my spare time, I enjoy music, running, and reading.
 
 You can find my CV <b> <a href="cv">here</a></b>.
 
-Contact: <b> ramanakshay112 AT gmail.com </b>
+Contact: <b> ramanakshay112 \[ at \] gmail \[ dot \] com </b>
