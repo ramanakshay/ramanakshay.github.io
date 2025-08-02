@@ -592,8 +592,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/42_book/";
-            },},{id: "news-sparkles-launched-my-personal-website",
-          title: ':sparkles: Launched my personal website!',
+            },},{id: "news-sparkles-launched-this-website",
+          title: ':sparkles: Launched this website!',
           description: "",
           section: "News",},{id: "news-graduated-from-vellore-institute-of-technology-with-a-bachelor-s-degree-in-computer-science-and-engineering",
           title: '🎓 Graduated from Vellore Institute of Technology with a Bachelor’s degree in Computer...',
@@ -601,39 +601,39 @@ ninja.data = [{
           section: "News",},{id: "news-graduated-from-new-york-university-with-a-master-s-degree-in-computer-science-ai-specialization",
           title: '🎓 Graduated from New York University with a Master’s degree in Computer Science...',
           description: "",
-          section: "News",},{id: "projects-diabetic-retinopathy-detection",
-          title: 'Diabetic Retinopathy Detection',
-          description: "Trained large-scale CNNs to predict diabetic retinopathy (an eye disease) from a noisy dataset of retinal images. Generated heatmaps using Grad-CAM to identify parts of the image which had the most impact on model prediction.",
+          section: "News",},{id: "projects-end-to-end-system-for-interpretable-diabetic-retinopathy-detection",
+          title: 'End-to-End System for Interpretable Diabetic Retinopathy Detection',
+          description: "Implemented an EfficientNet model in TensorFlow to classify Diabetic Retinopathy, achieving robust performance on a noisy and imbalanced medical dataset of retinal images. Deployed a complete end-to-end system as a Flask web application, integrating Grad-CAM to generate visual heat-maps that assist diagnosis and ensure model interpretability.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/retina/";
-            },},{id: "projects-multi-lingual-question-answering",
-          title: 'Multi-lingual Question Answering',
-          description: "Built an multi-lingual question answering system using the HuggingFace API on syntactic rules from multiple languages. Finetuned BERT on the SQUAD dataset augmented with multiple question variants using back translation.",
+            },},{id: "projects-multi-lingual-qa-with-back-translation-augmentation",
+          title: 'Multi-Lingual QA with Back-Translation Augmentation',
+          description: "Engineered a multi-lingual QA system supporting 6+ languages using the Hugging Face Transformers, and Google Translate API for cross-lingual translation. Fine-tuned BERT model on the SQuAD dataset, doubling the training data size with back-translation to improve model generalization and robustness.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/qasystem/";
             },},{id: "projects-solving-optimal-transport-using-deep-neural-networks",
           title: 'Solving Optimal Transport using Deep Neural Networks',
-          description: "Developed gradient-based DNN appoximators to solve the optimal transport problem for high-dimensional data. Aimed to study application of OT in Density Functional Theory (DFT) to study dissociation of atoms.",
+          description: "Prototyped a deep neural network solver for amortized Wasserstein OT in TensorFlow, accelerating the Sinkhorn algorithm by 2x on MNIST. Simulated atomic dissociation for N-electron systems using an OT solver, predicting potential energy curves within 5% of theoretical values.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/neural_ot/";
-            },},{id: "projects-continual-learning-for-policy-gradient-methods",
-          title: 'Continual Learning for Policy Gradient Methods',
-          description: "Developed novel incremental learning algorithms to train reinforcment learning agents on a variety of real-world environments. Modified batch-wise policy gradient methods using eligibility traces to eliminate data buffers, particularly for long horizon tasks.",
+            },},{id: "projects-continual-credit-assignment-with-eligibility-traces",
+          title: 'Continual Credit Assignment with Eligibility Traces',
+          description: "Developed an online reinforcement learning algorithm by adapting Generalized Advantage Estimation (GAE) with eligibility traces, eliminating memory-intensive data buffers. Proposed a clipped traces regularization method to solve training instability in the online setting, and applied on MuJoCo and Atari environments.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/continual_rl/";
-            },},{id: "projects-hierarchical-clip-based-image-geolocation-prediction",
-          title: 'Hierarchical CLIP-based Image Geolocation Prediction',
-          description: "Trained a CLIP-inspired image geolocation model that predicts the precise location of an image taken anywhere on earth. Designed a novel inference approach based on hierarchical feature clustering which achieves comparable performance while being ~100x more efficient than previous methods.",
+            },},{id: "projects-scalable-clip-based-geolocation-via-hierarchical-embedding-search",
+          title: 'Scalable CLIP-based Geolocation via Hierarchical Embedding Search',
+          description: "Developed a CLIP-based geolocation model trained on over 4M+ images from the MediaEval-16 dataset, achieving 70% country-level prediction accuracy. Engineered a novel hierarchical clustering algorithm to accelerate model inference by ~100x, reducing the search space from 100k+ GPS points to ~1k while maintaining competitive accuracy.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/geoclip/";
-            },},{id: "projects-canvas-a-template-for-deep-learning-projects",
-          title: 'Canvas - A Template for Deep Learning Projects',
-          description: "Designed a flexible deep learning project template using pytorch and hydra. The template is based on the agent-environment interface in RL and supports all kinds of machine learning tasks.",
+            },},{id: "projects-canvas-a-modular-deep-learning-project-template-using-pytorch-and-hydra",
+          title: 'Canvas - A Modular Deep Learning Project Template Using Pytorch and Hydra',
+          description: "Designed a flexible, modular deep learning project template using pytorch and hydra. Canvas aims to provide a unified template for all kinds of machine learning projects.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/canvas/";
-            },},{id: "projects-finetuning-video-diffusion-models-for-multi-view-consistency",
-          title: 'Finetuning Video Diffusion Models for Multi-view Consistency',
-          description: "Fine-tuned a video diffusion model to generate multi-view consistent object renderings from single-view inputs. Demonstrated that a curated high-quality 1% subset (10K objects) of the Objaverse dataset achieved performance comparable to full-scale training. (1M+ objects).",
+            },},{id: "projects-fine-tuning-video-diffusion-models-for-3d-consistent-multi-view-generation",
+          title: 'Fine-Tuning Video Diffusion Models for 3D-Consistent Multi-view Generation',
+          description: "Fine-tuned a video diffusion model (SVD) to generate geometrically consistent, multi-view renderings from a single input image. Demonstrated that a curated high-quality 1% subset (10K objects) of the Objaverse dataset achieved performance comparable to full-scale training (1M+ objects).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/finetune_svd/";
             },},{
