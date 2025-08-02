@@ -15,12 +15,10 @@ social: false # includes social icons at the bottom of the page
 selected_projects: true
 ---
 
-Hi! I am Akshay Raman, a recent graduate in Computer Science from New York University. My research interests broadly span reinforcement learning, multimodal learning, and the scientific applications of AI.
+I am Akshay Raman, a computer science graduate from New York University and a researcher at the <a href="https://www.ai4vslab.org/">AI4VS Lab</a> at Columbia University, working under the supervision of Prof. Kaveri Thakoor.
 
-I am currently a researcher at the <a href="https://www.ai4vslab.org/">AI4VS Lab</a> at Columbia University, where I work under the supervision of Prof. Kaveri Thakoor. My current research focuses on multimodal learning approaches that integrate eye-tracking data for improved predictive performance. Previously, I had the opportunity to collaborate with researchers at the <a href="https://chinmayhegde.github.io/lab/">DICE Lab</a> at NYU and the <a href="https://agerolin.github.io/">AI4Science Group</a> at the University of Ottawa.
+My research focuses on multimodal learning approaches that integrate eye-tracking data to improve predictive performance. My broader interests include reinforcement learning, multimodal learning, and the scientific applications of AI.
 
-In my spare time, I enjoy music, running, and reading.
+I have also collaborated with researchers at the <a href="https://chinmayhegde.github.io/lab/">DICE Lab</a> at NYU and the <a href="https://agerolin.github.io/">AI4Science Group</a> at the University of Ottawa. You can find my full CV <b> <a href="cv">here</a></b>.
 
-You can find my CV <b> <a href="cv">here</a></b>.
-
-Contact: <b> ramanakshay112 \[ at \] gmail \[ dot \] com </b>
+In my spare time, I enjoy music, running, and <a href="books">reading</a>.

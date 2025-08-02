@@ -1,7 +1,7 @@
 ---
 layout: none
-title: Hierarchical CLIP-based Image Geolocation Prediction
-description: Trained a CLIP-inspired image geolocation model that predicts the precise location of an image taken anywhere on earth. Designed a novel inference approach based on hierarchical feature clustering which achieves comparable performance while being ~100x more efficient than previous methods.
+title: Scalable CLIP-based Geolocation via Hierarchical Embedding Search
+description: Developed a CLIP-based geolocation model trained on over 4M+ images from the MediaEval-16 dataset, achieving 70% country-level prediction accuracy. Engineered a novel hierarchical clustering algorithm to accelerate model inference by ~100x, reducing the search space from 100k+ GPS points to ~1k while maintaining competitive accuracy.
 img: assets/img/projects/geoclip.png
 github: https://github.com/ramanakshay/hierarchical-geoclip
 report: https://drive.google.com/file/d/1WchGHmIU7Wos4qe4IfgeH24Pl_ttEkA6/view?usp=sharing

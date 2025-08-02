@@ -1,9 +1,9 @@
 ---
 layout: none
-title: Canvas - A Template for Deep Learning Projects
-description: Designed a flexible deep learning project template using pytorch and hydra. The template is based on the agent-environment interface in RL and supports all kinds of machine learning tasks.
+title: Canvas - A Modular Deep Learning Project Template Using Pytorch and Hydra
+description: Designed a flexible, modular deep learning project template using pytorch and hydra. Canvas aims to provide a unified template for all kinds of machine learning projects.
 img: assets/img/projects/canvas.svg
-github: https://github.com/ramanakshay/canvas
+github: https://github.com/ramanakshay/canvas-template
 date: 25-10-2024
 selected: true
 ---
